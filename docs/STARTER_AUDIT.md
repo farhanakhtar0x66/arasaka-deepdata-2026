@@ -69,5 +69,8 @@ Preprocessing is fitted on training data only.
   the Python checks on native Windows and Linux; inspect its current status.
 - Existing playbook roles are provisional. Teammate accounts, skills, availability,
   collaborator access, and final responsibilities have not been configured.
+- GitHub confirmed private visibility after creation. Enabling branch protection
+  returned HTTP 403 because the account needs GitHub Pro for this feature on a
+  private repository. Visibility was kept private; `main` remains unprotected.
 - Event details come from the supplied material. Confirm organizer rules and
   the actual submission deadline before using preparation code at the event.

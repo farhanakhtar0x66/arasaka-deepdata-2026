@@ -151,6 +151,9 @@ Open the local URL Streamlit prints (usually `http://localhost:8501`). You can u
 Use a feature branch and pull request for each task; the captain reviews and merges.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for copyable Git commands. Roles in the
 original playbook remain provisional until the team agrees them.
+GitHub requires a Pro upgrade to enforce branch protection on this private
+repository under the current account plan. Follow this review workflow manually;
+`main` is currently unprotected.
 
 After setup, run the same checks used by GitHub Actions:
 
